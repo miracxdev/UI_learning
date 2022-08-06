@@ -10,37 +10,28 @@ class ThirdScreen extends StatelessWidget {
         backgroundColor: Color(0xfffefefe),
         body: Column(children: [
           Padding(
-            padding: const EdgeInsets.only(top: 250),
-            child: Container(
-                child: Image.asset(
+            padding: const EdgeInsets.only(top: 100),
+            child: Image.asset(
               "assets/images/women3.png",
               height: 200,
               width: double.infinity,
-            )),
+            ),
           ),
-          Column(
-            children: [
-              SizedBox(
-                height: 30,
-              ),
-              Text(
-                "Fast delivery service",
-                style: TextStyle(
-                    fontWeight: FontWeight.w400,
-                    color: Colors.black,
-                    fontSize: 20),
-              ),
-              SizedBox(
-                height: 15,
-              ),
-              Text(
-                "Lorem ipsum dolor sit amet, consectetur \n adipiscing elit. Orci mattis eget.",
-                style: TextStyle(
-                    fontWeight: FontWeight.w200,
-                    color: Colors.black,
-                    fontSize: 15),
-              ),
-            ],
+          SizedBox(
+            height: 30,
+          ),
+          Text(
+            "Fast delivery service",
+            style: TextStyle(
+                fontWeight: FontWeight.w400, color: Colors.black, fontSize: 20),
+          ),
+          SizedBox(
+            height: 15,
+          ),
+          Text(
+            "Lorem ipsum dolor sit amet, consectetur \n adipiscing elit. Orci mattis eget.",
+            style: TextStyle(
+                fontWeight: FontWeight.w200, color: Colors.black, fontSize: 15),
           ),
           SizedBox(
             height: 140,
